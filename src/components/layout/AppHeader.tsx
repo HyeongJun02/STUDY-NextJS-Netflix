@@ -46,7 +46,11 @@ export default function AppHeader() {
           <button aria-label="알림" className="hover:text-white">
             <Bell size={24} />
           </button>
-          <div className="h-7 w-7 rounded bg-white/30" />
+          <img
+            src="https://occ-0-8133-58.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABb7LgNLpzHz7xkzXVKN-qBXHtZn1FrKztYDok55Dd-KHfjnDvrOyX8odQSgIQIWk9nuxhl-sTdZeR6ytS58CLe6xhmGcBtiHfA.png?r=469"
+            alt="Profile"
+            className="h-8 w-8 object-cover rounded"
+          />
         </div>
       </div>
     </header>

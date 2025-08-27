@@ -69,7 +69,8 @@ export const ROW_TOP10: MediaItem[] = [
   {
     id: '6',
     title: '트라이',
-    poster: 'https://image.tmdb.org/t/p/w342/6.jpg',
+    poster:
+      'https://i.namu.wiki/i/z8veKhUgyEO2N04-rKAxnmsfWuVgTzbZC50LKtCMdfgilfXEpDC_Q_fvPfFWr1YPk2ZBPqOMdqJE2i3PB4C61g.webp',
     backdrop: '',
     detail:
       '예측불허 괴짜감독 주가람과 만년 꼴찌 한양체고 럭비부가 전국체전 우승을 향해 질주하는 코믹 성장 스포츠 드라마',
@@ -77,7 +78,8 @@ export const ROW_TOP10: MediaItem[] = [
   {
     id: '7',
     title: '트리거',
-    poster: 'https://image.tmdb.org/t/p/w342/7.jpg',
+    poster:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSpQTgSUM1z7tFDBYUl6CHjjeYG1r176q69Q&s',
     backdrop: '',
     detail:
       '대한민국에서 출처를 알 수 없는 불법 총기가 배달되고 총기 사건이 끊임없이 발생하는 가운데 각자의 이유로 총을 든 두 남자의 이야기를 그린 총기 액션 재난 스릴러',
@@ -85,14 +87,16 @@ export const ROW_TOP10: MediaItem[] = [
   {
     id: '8',
     title: '괴수 8호',
-    poster: 'https://image.tmdb.org/t/p/w342/8.jpg',
+    poster:
+      'https://i.namu.wiki/i/hAyIWH5Dli1UHoNnYkgG_I7MfmsBu-Qap-dVm0-yDx9LvtQZ3NQytYeUdP9q7TaCY1t4Mho_Lq4uvE-pFQs8Yw.webp',
     backdrop: '',
     detail: '',
   },
   {
     id: '9',
     title: '귀멸의 칼날',
-    poster: 'https://image.tmdb.org/t/p/w342/9.jpg',
+    poster:
+      'https://i.namu.wiki/i/9bBtkQp6BA81SHCstH69Ne6lxlgWUNzEZbTuKLC-DmgkKvEMQQE_WGR6lKS0za_0vJXR81w96WzmMyGpOoHjCA.webp',
     backdrop: '',
     detail:
       '다가오는 결전을 향한 탄지로와 귀살대원들의 합동 강화 훈련을 그린 애니메이션',
@@ -100,7 +104,8 @@ export const ROW_TOP10: MediaItem[] = [
   {
     id: '10',
     title: '악의 마음을 읽는자들',
-    poster: 'https://image.tmdb.org/t/p/w342/10.jpg',
+    poster:
+      'https://i.namu.wiki/i/G1Mh3xaKHpTue5tpa2JV3udRP1yVbNeSp-TqeryNWYCL52FwuSwtpE9uKRYIDUwrJBjNR5Kg8bPuOPnepIsuyQ.webp',
     backdrop: '',
     detail:
       '대한민국을 공포에 빠뜨린 동기없는 살인이 급증하던 시절, 최초의 프로파일러가 연쇄살인범들과 위험한 대화를 시작한다. 악의 정점에 선 이들의 마음 속을 치열하게 들여봐야만 했던 프로파일러의 이야기.',
