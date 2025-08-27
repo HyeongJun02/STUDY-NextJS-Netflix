@@ -94,8 +94,7 @@ export default function MediaModal({ item, onClose }: Props) {
               </span>
             </div>
             <p className="text-neutral-200">
-              {item.detail ??
-                '데이터가 없어 임시 설명을 표시합니다. 옛 시대를 배경으로 한 서사와 웅장한 스케일, 섬세한 감정선을 담은 작품입니다.'}
+              {item.detail ?? '설명이 없습니다.'}
             </p>
           </div>
 
