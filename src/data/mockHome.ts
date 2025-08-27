@@ -16,16 +16,16 @@ export const HERO: MediaItem = {
 };
 
 export const ROW_TOP10: MediaItem[] = [
-  { id:'1', title:'작품1', poster:'https://image.tmdb.org/t/p/w342/1.jpg', backdrop:'', detail:'' },
-  { id:'2', title:'작품2', poster:'https://image.tmdb.org/t/p/w342/2.jpg', backdrop:'', detail:'' },
-  { id:'3', title:'작품3', poster:'https://image.tmdb.org/t/p/w342/3.jpg', backdrop:'', detail:'' },
-  { id:'4', title:'작품4', poster:'https://image.tmdb.org/t/p/w342/4.jpg', backdrop:'', detail:'' },
-  { id:'5', title:'작품5', poster:'https://image.tmdb.org/t/p/w342/5.jpg', backdrop:'', detail:'' },
-  { id:'6', title:'작품6', poster:'https://image.tmdb.org/t/p/w342/6.jpg', backdrop:'', detail:'' },
-  { id:'7', title:'작품7', poster:'https://image.tmdb.org/t/p/w342/7.jpg', backdrop:'', detail:'' },
-  { id:'8', title:'작품8', poster:'https://image.tmdb.org/t/p/w342/8.jpg', backdrop:'', detail:'' },
-  { id:'9', title:'작품9', poster:'https://image.tmdb.org/t/p/w342/9.jpg', backdrop:'', detail:'' },
-  { id:'10', title:'작품10', poster:'https://image.tmdb.org/t/p/w342/10.jpg', backdrop:'', detail:'' },
+  { id:'1', title:'폭군의 셰프', poster:'https://i.namu.wiki/i/wQILxontfE1MlO6RBfKzcH7VlTBwclvXNctbCVVGLpr204kRKmL47cAAEmP6p6lnfYP5OtSo8fwtspbw7U77_jxQBLtl_CbbjNVQ6-iFot3wU-Vt_I7i9e9_Q4DzixOgsYND-AGdCIKOgTgzYOXeYg.webp', backdrop:'', detail:'' },
+  { id:'2', title:'에스콰이어', poster:'https://i.namu.wiki/i/RD6rKNNJ214NXbASCJgfHYpfvYcN7JsgeT_2si4W0yXimqgPFaCGSsBohXOSPWhn3E-CMB85EBvgcsFIiLPmfiP1RObCaO6_mwHKmxpBq2Cx0TFS5EqYI7t_OpYVlLO250oj22M0es8d4vQ7e3NFKQ.webp', backdrop:'', detail:'' },
+  { id:'3', title:'애마', poster:'https://i.namu.wiki/i/6rx4I0_c7ee7YSoMC82ln9q1WJypuWicUEJGQ-jXs8pivV5Qq0DDfHJ23Yl4BVOagxMOyQe5uzbD90lgxCspdzOIckiVBApNIr77d9N4-1wBR9kekpPdhi7fCNPLB3nV9j5Bjx-gpkKrslUTDwonIA.webp', backdrop:'', detail:'' },
+  { id:'4', title:'그해 우리는', poster:'https://i.namu.wiki/i/pOdWAeX72z9T7W1jowlQyQRFAyPk8pqt98P_Fxfo83sWmSgLlUB2YxRf175Opw0J_5tYNOKDyVbq52kLv709w1kH3L7SVhvLo27QTxdp8bC0ZY2-czkB7I6EnbzZ7Pj84wkaSspUfaDm5qJLRnqKbg.webp', backdrop:'', detail:'' },
+  { id:'5', title:'진격의 거인', poster:'https://i.pinimg.com/736x/27/f8/d3/27f8d3f2e285eb81b44074c33082578d.jpg', backdrop:'', detail:'' },
+  { id:'6', title:'트라이', poster:'https://image.tmdb.org/t/p/w342/6.jpg', backdrop:'', detail:'' },
+  { id:'7', title:'트리거', poster:'https://image.tmdb.org/t/p/w342/7.jpg', backdrop:'', detail:'' },
+  { id:'8', title:'괴수 8호', poster:'https://image.tmdb.org/t/p/w342/8.jpg', backdrop:'', detail:'' },
+  { id:'9', title:'귀멸의 칼날', poster:'https://image.tmdb.org/t/p/w342/9.jpg', backdrop:'', detail:'' },
+  { id:'10', title:'악의 마음을 읽는자들', poster:'https://image.tmdb.org/t/p/w342/10.jpg', backdrop:'', detail:'' },
 ];
 
 export const ROW_CONTINUE: MediaItem[] = [

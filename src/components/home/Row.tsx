@@ -29,7 +29,7 @@ export default function Row({
       <div ref={ref}
            className="mask-x scrollbar-hide flex gap-3 overflow-x-auto scroll-smooth">
         {items.map((it, i) => 
-          wide ? (<CardW key={it.id} item={it} rank={ranked ? i + 1 : undefined} />) : (<Card key={it.id} item={it} rank={ranked ? i + 1 : undefined} />)
+          wide ? (<CardW key={it.id} item={it}/>) : (<Card key={it.id} item={it} rank={ranked ? i + 1 : undefined} />)
         )}
       </div>
     </section>

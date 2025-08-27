@@ -4,7 +4,7 @@ import { HERO, ROW_TOP10, ROW_CONTINUE } from '@/data/mockHome';
 
 export default function Home() {
   return (
-    <main className="pt-[64px]"> {/* 헤더 높이 보정 */}
+    <main> {/* 헤더 높이 보정 */}
       <Hero item={HERO} />
       <div className="mt-6 space-y-8">
         <Row title="오늘 대한민국의 TOP 10 시리즈" items={ROW_TOP10} ranked />
