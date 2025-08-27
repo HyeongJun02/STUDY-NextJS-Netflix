@@ -1,11 +1,12 @@
 'use client';
 import { useRef } from 'react';
 import Card from './Card';
+import CardW from './Card-w';
 import type { MediaItem } from '@/data/mockHome';
 
 export default function Row({
-  title, items, ranked = false,
-}: { title: string; items: MediaItem[]; ranked?: boolean }) {
+  title, items, ranked = false, wide = false
+}: { title: string; items: MediaItem[]; ranked?: boolean; wide?: boolean }) {
   const ref = useRef<HTMLDivElement>(null);
   const move = (dir: 'L'|'R') => () => {
     const el = ref.current; if (!el) return;
@@ -27,9 +28,9 @@ export default function Row({
 
       <div ref={ref}
            className="mask-x scrollbar-hide flex gap-3 overflow-x-auto scroll-smooth">
-        {items.map((it, i) => (
-          <Card key={it.id} item={it} rank={ranked ? i + 1 : undefined} />
-        ))}
+        {items.map((it, i) => 
+          wide ? (<CardW key={it.id} item={it} rank={ranked ? i + 1 : undefined} />) : (<Card key={it.id} item={it} rank={ranked ? i + 1 : undefined} />)
+        )}
       </div>
     </section>
   );
