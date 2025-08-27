@@ -34,3 +34,10 @@ export const ROW_CONTINUE: MediaItem[] = [
   { id:'c', title:'미스터션샤인', poster:'https://occ-0-8133-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABZgbsQOs2PnybPcB1tyaEpYfzBi7WKzuckCA3zBdxN7ii5z3llt-rbAIv8QYYcVfnNzJr8-K3p8KEEhUscCYpdo9F5UWRarc-qE.webp?r=050', backdrop:'', detail:'' },
   { id:'d', title:'솔로지옥', poster:'https://occ-0-8133-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABeXTGITfBq5ScPdPyFKDcOir8yIWsPp2KKBK_K83ioVCdU972YF0_3AUvT8jz8SAEzyCq5G21QjY7R-8-nbLhtvecWD91YKl5cA.webp?r=f62', backdrop:'', detail:'' },
 ];
+
+export const ROW_ONLY: MediaItem[] = [
+  { id:'a', title:'케이팝 데몬 헌터스', poster:'https://occ-0-8133-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABW0zGMsApBfdegqOnWStN_u1cFN4xiIEvRJHACeFwDknZZ4TmRbbIRAqTnTC88GqS8tXtrN9TIfBA1n50vYJlQANloVjEHAHI89uu3CkcbxPglSa28OxNxcik0TNb3jJPEZ-XM0xfGB9WwlCKFaTk7GyTfhaqFmve2weQB0mgiripwYncw28fhM3HqjWa_Q.jpg?r=1e1', backdrop:'', detail:'' },
+  { id:'b', title:'모태솔로지만 연애는 하고싶어',   poster:'https://occ-0-8133-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABQPK1gxSiZXYTi-0zzO6rv4xqtOEbEGXG6eatIVANr28-v2lAxvgSg23r1_aFAbWkG5cBov03VUc3lFeBJtlR4VA7joyxYFFMBiFoKp9X2oJXYTn9enjc1Gq4LeNNQLPXsuP-YBWN1jiJOY2x7-xtiyEEpfCi4vjF0YTcueGedjrol3cipMMcpSJ8ifrlqmK5WLcf_LTx5M9Im6Y1DH38YEkC4zP8WRzP7C_u0aLMvY6imbSolyn6_eVw4SNi_iWxVOBnztSwoIPjVYp-Ob9pbnSVeZoZocKyZzNm-3m0LRjfE-Tklbz1QQD5giAtlrzs6zA8T1wKPhP9MdGXJjtWThPKQ8ghdtc5BfxUR3AEKcvMTGemc7K.jpg?r=4b7', backdrop:'', detail:'' },
+  { id:'c', title:'폭싹 속았수다', poster:'https://occ-0-8133-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABd98oKgCH9JvkO60g69tQa7G98g6iIPKJY3EeKrDoxx4fuJZJ22WuDyVEEGykc9mGgQZHFMUZeS5Jn3HdrQOD_AVxYYRCcpjBQQajXeIomJVTIkH9oUZhOAWe57dkaVZLQl1.jpg?r=c46', backdrop:'', detail:'' },
+  { id:'d', title:'중증외상센터', poster:'https://occ-0-8133-58.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABQ2jp_Xc04eyhodiAnDy2a0ESfSQsj5Fq5mXeb1BaCGCX7bxfozElyeH0Hg3YRFLTgC0G3_A46Jh_gsWRpPvVJ7iHy-sUyp_3cuvOXEUFCmVxf0IbplZLNE9gxf0oLG49_5P.jpg?r=1eb', backdrop:'', detail:'' },
+];
