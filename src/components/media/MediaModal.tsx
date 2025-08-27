@@ -13,7 +13,9 @@ export default function MediaModal({ item, onClose }: Props) {
   // 열렸을 때 ESC로 닫기 + 스크롤 잠금
   useEffect(() => {
     if (!item) return;
-    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') onClose(); };
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') onClose();
+    };
     document.body.style.overflow = 'hidden';
     window.addEventListener('keydown', onKey);
     return () => {
@@ -26,14 +28,12 @@ export default function MediaModal({ item, onClose }: Props) {
 
   return (
     <div
-      role="dialog" aria-modal="true"
+      role="dialog"
+      aria-modal="true"
       className="fixed inset-0 z-[60] flex items-start justify-center overflow-y-auto"
     >
       {/* 뒤 배경: 어둡게 + 흐림 */}
-      <div
-        className="absolute inset-0 bg-black/50"
-        onClick={onClose}
-      />
+      <div className="absolute inset-0 bg-black/50" onClick={onClose} />
 
       {/* 패널 */}
       <div className="relative z-[61] mx-4 my-10 w-full max-w-4xl overflow-hidden rounded-2xl bg-[#111111] shadow-2xl">
@@ -85,9 +85,13 @@ export default function MediaModal({ item, onClose }: Props) {
           <div>
             <div className="mb-2 flex items-center gap-3 text-sm text-neutral-300">
               <span>2018</span>
-              <span className="rounded border border-white/30 px-1.5 py-0.5 text-xs">15+</span>
+              <span className="rounded border border-white/30 px-1.5 py-0.5 text-xs">
+                15+
+              </span>
               <span>에피소드 24개</span>
-              <span className="rounded border border-white/30 px-1.5 py-0.5 text-xs">HD</span>
+              <span className="rounded border border-white/30 px-1.5 py-0.5 text-xs">
+                HD
+              </span>
             </div>
             <p className="text-neutral-200">
               {item.detail ??
@@ -97,9 +101,18 @@ export default function MediaModal({ item, onClose }: Props) {
 
           {/* 오른쪽: 메타(가짜 데이터) */}
           <div className="space-y-2 text-sm text-neutral-300">
-            <div><span className="text-neutral-400">출연:</span> 이병헌, 김태리, 유연석, 더 보기</div>
-            <div><span className="text-neutral-400">장르:</span> 로맨틱한 드라마, 정치 시리즈, 시대극</div>
-            <div><span className="text-neutral-400">시리즈 특징:</span> 감성을 파고드는 음악, 서스펜스</div>
+            <div>
+              <span className="text-neutral-400">출연:</span> 이병헌, 김태리,
+              유연석, 더 보기
+            </div>
+            <div>
+              <span className="text-neutral-400">장르:</span> 로맨틱한 드라마,
+              정치 시리즈, 시대극
+            </div>
+            <div>
+              <span className="text-neutral-400">시리즈 특징:</span> 감성을
+              파고드는 음악, 서스펜스
+            </div>
           </div>
         </div>
       </div>

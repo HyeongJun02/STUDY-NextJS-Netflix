@@ -1,6 +1,14 @@
 import type { MediaItem } from '@/data/mockHome';
 
-export default function CardW({ item, rank, onClick }: { item: MediaItem; rank?: number; onClick?: (it: MediaItem) => void }) {
+export default function CardW({
+  item,
+  rank,
+  onClick,
+}: {
+  item: MediaItem;
+  rank?: number;
+  onClick?: (it: MediaItem) => void;
+}) {
   return (
     <div
       role="button"
@@ -12,11 +20,16 @@ export default function CardW({ item, rank, onClick }: { item: MediaItem; rank?:
         mt-2 mb-2
       "
     >
-      <div className="absolute inset-0 rounded-md bg-neutral-800 shadow
-                      transition-transform duration-300 group-hover:-translate-y-1">
-        <img src={item.poster} alt={item.title}
-             className="h-full w-full rounded-md object-cover
-                        transition-transform duration-300 group-hover:scale-[1.06]" />
+      <div
+        className="absolute inset-0 rounded-md bg-neutral-800 shadow
+                      transition-transform duration-300 group-hover:-translate-y-1"
+      >
+        <img
+          src={item.poster}
+          alt={item.title}
+          className="h-full w-full rounded-md object-cover
+                        transition-transform duration-300 group-hover:scale-[1.06]"
+        />
       </div>
     </div>
   );

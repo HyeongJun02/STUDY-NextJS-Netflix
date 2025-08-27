@@ -12,14 +12,30 @@ export default function AppHeader() {
   }, []);
 
   return (
-    <header className={`fixed inset-x-0 top-0 z-50 transition-colors duration-300
-      ${solid ? 'bg-black/90' : 'bg-gradient-to-b from-black/70 to-transparent'}`}>
+    <header
+      className={`fixed inset-x-0 top-0 z-50 transition-colors duration-300
+      ${
+        solid ? 'bg-black/90' : 'bg-gradient-to-b from-black/70 to-transparent'
+      }`}
+    >
       <div className="mx-auto flex max-w-7xl items-center gap-6 px-6 py-3">
-        <img src="/images/Netflix-logo.png" alt="Netflix Logo" className="h-12 w-auto" />
+        <img
+          src="/images/Netflix-logo.png"
+          alt="Netflix Logo"
+          className="h-12 w-auto"
+        />
 
         <nav className="hidden md:flex items-center gap-5 text-sm text-neutral-300">
-          {['홈','시리즈','영화','NEW! 요즘 대세 콘텐츠','내가 찜한 리스트'].map(t=>(
-            <a key={t} className="hover:text-white" href="#">{t}</a>
+          {[
+            '홈',
+            '시리즈',
+            '영화',
+            'NEW! 요즘 대세 콘텐츠',
+            '내가 찜한 리스트',
+          ].map((t) => (
+            <a key={t} className="hover:text-white" href="#">
+              {t}
+            </a>
           ))}
         </nav>
 

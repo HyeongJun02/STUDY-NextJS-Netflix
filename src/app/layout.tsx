@@ -7,7 +7,11 @@ export const metadata: Metadata = {
   description: 'Clone',
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="ko">
       <body className="bg-[#111111] text-neutral-200 antialiased">
